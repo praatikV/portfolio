@@ -29,14 +29,14 @@ export function GithubActivity() {
             rel="noopener noreferrer"
             className="text-primary underline-offset-4 hover:underline"
           >
-            github.com/hahapratik
+            github.com/praatikV
           </a>{' '}
           — pipelines, Terraform configs, and daily lab work.
         </p>
         <div className="mt-10 min-h-40 overflow-x-auto rounded-lg border border-border bg-card p-6">
           {mounted ? (
             <GitHubCalendar
-              username="hahapratik"
+              username="praatikV"
               colorScheme="dark"
               theme={theme}
               blockSize={11}
