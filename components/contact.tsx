@@ -31,7 +31,7 @@ function InstagramIcon({ className }: { className?: string }) {
 }
 
 const socials = [
-  { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/hahapratik' },
+  { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/praatikV' },
   { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://linkedin.com/in/pratikkumarverman' },
   { icon: InstagramIcon, label: 'Instagram', href: 'https://instagram.com/hahapratik' },
   { icon: Mail, label: 'Email', href: 'mailto:pratikvermann@gmail.com' },
