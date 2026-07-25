@@ -24,7 +24,7 @@ export function GithubActivity() {
         <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
           A live view of my contributions on{' '}
           <a
-            href="https://github.com/hahapratik"
+            href="https://github.com/praatikV"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary underline-offset-4 hover:underline"
