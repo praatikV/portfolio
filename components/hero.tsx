@@ -27,6 +27,12 @@ export function Hero() {
         >
           Get in touch
         </a>
+        <a
+          href="/resume.pdf"
+          className="rounded-md border border-border px-5 py-2.5 font-mono text-xs text-foreground transition-colors hover:bg-secondary"
+        >
+          Resume
+        </a>
       </div>
       <dl className="mt-20 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-border bg-border md:grid-cols-4">
         {[
