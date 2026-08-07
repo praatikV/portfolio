@@ -31,10 +31,30 @@ function InstagramIcon({ className }: { className?: string }) {
 }
 
 const socials = [
-  { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/praatikV' },
-  { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://linkedin.com/in/pratikkumarverman' },
-  { icon: InstagramIcon, label: 'Instagram', href: 'https://www.instagram.com/praatik.v/' },
-  { icon: Mail, label: 'Email', href: 'mailto:pratikvermann@gmail.com' },
+  {
+    icon: GithubIcon,
+    label: 'GitHub',
+    href: 'https://github.com/praatikV',
+    hoverColor: 'group-hover:text-violet-500',
+  },
+  {
+    icon: LinkedinIcon,
+    label: 'LinkedIn',
+    href: 'https://linkedin.com/in/pratikkumarverman',
+    hoverColor: 'group-hover:text-sky-500',
+  },
+  {
+    icon: InstagramIcon,
+    label: 'Instagram',
+    href: 'https://www.instagram.com/praatik.v/',
+    hoverColor: 'group-hover:text-pink-500',
+  },
+  {
+    icon: Mail,
+    label: 'Email',
+    href: 'mailto:pratikvermann@gmail.com',
+    hoverColor: 'group-hover:text-emerald-500',
+  },
 ]
 
 export function Contact() {
@@ -74,9 +94,12 @@ export function Contact() {
                   href={social.href}
                   target={social.href.startsWith('mailto') ? undefined : '_blank'}
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2.5 font-mono text-xs text-muted-foreground transition-colors hover:text-foreground"
+                  className="group inline-flex items-center gap-2.5 font-mono text-xs text-muted-foreground transition-colors hover:text-foreground"
                 >
-                  <social.icon className="size-4 text-primary" aria-hidden="true" />
+                  <social.icon
+                    className={`size-4 text-muted-foreground transition-colors ${social.hoverColor}`}
+                    aria-hidden="true"
+                  />
                   {social.label}
                 </a>
               </li>
