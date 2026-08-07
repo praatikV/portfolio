@@ -40,6 +40,8 @@ const groups: { title: string; skills: Skill[] }[] = [
       { name: 'Arch Linux', slug: 'arch-linux' },
       { name: 'Bash', slug: 'bash', variant: 'light' },
       { name: 'Vim', slug: 'vim' },
+      { name: 'Neovim', slug: 'neovim' },
+      { name: 'VS Code', slug: 'visual-studio-code' },
     ],
   },
   {
