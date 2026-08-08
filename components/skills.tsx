@@ -76,7 +76,7 @@ export function Skills() {
                 {group.skills.map((skill) => (
                   <li
                     key={skill.name}
-                    className="flex items-center gap-3 rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:border-primary/40"
+                    className="group flex items-center gap-3 rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:border-primary/40"
                   >
                     <img
                       src={`${ICON_BASE}/${skill.slug}/${skill.variant ?? 'default'}.svg`}
@@ -84,7 +84,7 @@ export function Skills() {
                       width={24}
                       height={24}
                       loading="lazy"
-                      className="size-6 shrink-0 opacity-80 grayscale"
+                      className="size-6 shrink-0 opacity-70 grayscale transition-all duration-200 group-hover:opacity-100 group-hover:grayscale-0"
                       aria-hidden="true"
                     />
                     <span className="text-sm text-card-foreground">{skill.name}</span>
