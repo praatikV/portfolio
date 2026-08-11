@@ -31,7 +31,9 @@ const groups: { title: string; skills: Skill[] }[] = [
   },
   {
     title: 'Monitoring',
-    skills: [{ name: 'Prometheus', slug: 'prometheus' }],
+    skills: [{ name: 'Prometheus', slug: 'prometheus' }
+            { name: 'Grafana', slug: 'grafana' },
+            ],
   },
   {
     title: 'Systems & Tooling',
