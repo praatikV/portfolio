@@ -8,7 +8,7 @@ const projects = [
       'A hands-on Jenkins continuous integration lab — building and running automated pipelines against a Python codebase to practice jobs, triggers, and build stages.',
     tags: ['Jenkins', 'Python', 'CI'],
     status: 'Public Repo',
-    link: 'https://github.com/hahapratik/jenkins-demo',
+    link: 'https://github.com/praatikV/jenkins-demo',
   },
   {
     title: 'jenkins-cicd-demo',
@@ -17,9 +17,17 @@ const projects = [
       'End-to-end CI/CD demonstration with Jenkins — taking a web app from commit to deployment, wiring up the pipeline stages that power the Jenkins + Docker + Argo CD workflow.',
     tags: ['Jenkins', 'CI/CD', 'HTML'],
     status: 'Public Repo',
-    link: 'https://github.com/hahapratik/jenkins-cicd-demo',
+    link: 'https://github.com/praatikV/jenkins-cicd-demo',
   },
-
+  {
+    title: 'go-web-app',
+    role: 'Go app, devopsified end-to-end',
+    description:
+      'A simple Go net/http app taken from bare-bones to a full CI/CD and GitOps pipeline — GitHub Actions for build, test, and lint, a multi-stage Docker build to a distroless image, Kubernetes Deployment/Service/Ingress manifests, and a Helm chart with automated image-tag bumps on every release.',
+    tags: ['Go', 'Docker', 'Kubernetes', 'Helm', 'GitHub Actions'],
+    status: 'Public Repo',
+    link: 'https://github.com/praatikV/go-web-app',
+  },
    {
     title: 'github-actions',
     role: 'GitHub Actions automation and workflows',
@@ -27,7 +35,7 @@ const projects = [
       'A practical demonstration of continuous integration and deployment using GitHub Actions, featuring automated YAML pipelines for building, testing, and delivering code directly within GitHub.',
     tags: ['GitHub Actions', 'CI/CD', 'YAML', 'Automation'],
     status: 'Public Repo',
-    link: 'https://github.com/hahapratik/Github-Actions',
+    link: 'https://github.com/praatikV/Github-Actions',
   },
 
 ]
