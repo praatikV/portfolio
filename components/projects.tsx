@@ -19,15 +19,7 @@ const projects = [
     status: 'Public Repo',
     link: 'https://github.com/hahapratik/jenkins-cicd-demo',
   },
-  {
-    title: 'BLOG-AWORLD-',
-    role: 'Blog web app',
-    description:
-      'A JavaScript-powered blog project — building and shipping a working web app front to back, and a playground for web fundamentals outside the DevOps lab.',
-    tags: ['JavaScript', 'Web'],
-    status: 'Public Repo',
-    link: 'https://github.com/hahapratik/BLOG-AWORLD-',
-  },
+
    {
     title: 'github-actions',
     role: 'GitHub Actions automation and workflows',
