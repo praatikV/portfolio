@@ -28,7 +28,7 @@ export function Hero() {
           Get in touch
         </a>
         <a
-          href="/Pratik_Kumar_Verman_Resume.pdf"
+          href="/Pratik_Verman_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-md border border-border px-5 py-2.5 font-mono text-xs text-foreground transition-colors hover:bg-secondary"
